@@ -1,0 +1,72 @@
+package numericalData;
+
+import java.util.Scanner;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		
+		int number1;
+		int number2;
+		int number3=33;
+		int number4=44;
+		int number5=55;
+		int number6=66;
+		float number7=77;
+		float number8=100;
+		double number9;
+		double number10=110;
+		int sum;
+		int sum2;
+		int sum3;
+		float sum4;
+		double sum5;
+		int average;
+		float sum6;
+		
+		Scanner scanMe= new Scanner (System.in);
+		System.out.println("Enter your name: ");
+		name=scanMe.nextLine();
+		
+		System.out.println("Enter your CGPA: ");
+		number9=scanMe.nextDouble();
+		
+		System.out.println("Enter Number1: ");
+		number1=scanMe.nextInt();
+		
+		System.out.println("Enter Number2: ");
+		number2=scanMe.nextInt();
+		
+		System.out.println("Number1= " + number1);
+		System.out.println("Number2= " + number2);
+		System.out.println("Your name= " + name);
+		System.out.println("Number9= " + number9);
+		
+		sum=number1+number2+number3+number4+number5+number6;
+		System.out.println("The sum of 6 integer is "+sum);
+		
+		sum2=number6-number1;
+		System.out.println("The sum is "+sum2);
+		
+		sum3=number1*number2*number3*number4*number5*number6;
+		System.out.println("The sum is "+sum3);
+		
+		sum4=number8/number7;
+		System.out.printf("The sum is %.2f",sum4);
+		System.out.println();
+		
+		sum5=number10/number9;
+		System.out.printf("The sum is %.2f", sum5);
+		System.out.println();
+		
+		//average=(number1+number2+number3+number4+number5+number6)/6;
+		average=sum/6;
+		System.out.println("The average of 6 integer is "+ average);
+		
+		sum6=(float)(sum4+sum5);
+		System.out.printf("The sum is %.2f",sum6);
+	}
+
+}
