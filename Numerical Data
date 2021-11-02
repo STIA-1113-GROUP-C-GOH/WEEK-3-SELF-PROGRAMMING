@@ -70,3 +70,24 @@ public class Exercise1 {
 	}
 
 }
+
+Output
+Enter your name: 
+Goh Koon Loong
+Enter your CGPA: 
+3.67
+Enter Number1: 
+15
+Enter Number2: 
+20
+Number1= 15
+Number2= 20
+Your name= Goh Koon Loong
+Number9= 3.67
+The sum of 6 integer is 233
+The sum is 51
+The sum is 1581228000
+The sum is 1.30
+The sum is 29.97
+The average of 6 integer is 38
+The sum is 31.27
