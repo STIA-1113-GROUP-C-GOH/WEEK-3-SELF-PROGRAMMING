@@ -1,0 +1,20 @@
+package selfProgramming;
+
+public class Overflow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int oneThousand = 1000;   
+		int oneMillion = 1000 * oneThousand;  
+		long oneBillion = 1000 * oneMillion;   
+		long threeBillion = 3 * oneBillion;
+		System.out.println(threeBillion);   
+		
+		
+
+	}
+
+}
+
+Output
+3000000000
