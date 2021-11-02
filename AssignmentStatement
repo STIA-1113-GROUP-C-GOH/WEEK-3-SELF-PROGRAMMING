@@ -1,0 +1,23 @@
+package selfProgramming;
+
+public class AssignmentStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("amount = 3.99");
+		System.out.println("firstInitial = 'W'");
+		System.out.println("score = numberOfCards + handicap");
+		System.out.println("eggsPerBasket = eggsPerBasket - 2");
+		
+		int count = 0;
+		char grade = 'A';
+		System.out.println("The count is "+ count);
+		System.out.println("The alpahbet is "+ grade);
+    
+Output
+amount = 3.99
+firstInitial = 'W'
+score = numberOfCards + handicap
+eggsPerBasket = eggsPerBasket - 2
+The count is 0
+The alpahbet is A
