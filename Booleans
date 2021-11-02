@@ -11,6 +11,11 @@ public class Boolean {
 		System.out.println("\nThe world is round\t" +x);
 		System.out.println("Spider has 10 legs\t" +y);
 		System.out.println("6 is an odd number\t" +y);
+		
+		}
+
+}
+
     
 Output
 
