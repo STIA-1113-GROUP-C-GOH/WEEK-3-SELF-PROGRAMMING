@@ -1,0 +1,21 @@
+package selfProgramming;
+
+public class Boolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean x=true;
+		boolean y=false;
+		
+		System.out.println("Is the following statement " +x+ " or " +y+ "?");
+		System.out.println("\nThe world is round\t" +x);
+		System.out.println("Spider has 10 legs\t" +y);
+		System.out.println("6 is an odd number\t" +y);
+    
+Output
+
+Is the following statement true or false?
+
+The world is round	true
+Spider has 10 legs	false
+6 is an odd number	false
